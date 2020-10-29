@@ -26,7 +26,7 @@ void imprimir_jogo(const char jogo[][3])
     printf("2 %c | %c | %c \n",jogo[2][0],jogo[2][1],jogo[2][2]);
 }
 
-verifica_linha(const char jogo[][3], int linha, char jogador, int *ptr_status)
+int verifica_linha(const char jogo[][3], int linha, char jogador, int *ptr_status)
 {
     for (int coluna = 0; coluna < 3; coluna ++)
     {
