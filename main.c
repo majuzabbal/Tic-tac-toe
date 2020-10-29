@@ -91,6 +91,7 @@ int main()
 
     while((velha <= 9) && (status == 0))
     {
+        imprimir_jogo(jogo);
         printf("\n\nVez do O\n\n");
         printf("Faca sua jogada, digite a linha e coluna desejada: ");
         scanf("%i%i", &linha, &coluna);
